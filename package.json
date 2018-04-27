@@ -1,0 +1,24 @@
+{
+    "name": "node_modules_workshop",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "postinstall": "node -e \"var s='../src',d='node_modules/src',fs=require('fs');fs.exists(d,function(e){e||fs.symlinkSync(s,d,'dir')});\""
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/FlyMaple/node_modules_workshop.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/FlyMaple/node_modules_workshop/issues"
+    },
+    "homepage": "https://github.com/FlyMaple/node_modules_workshop#readme",
+    "devDependencies": {
+        "express": "^4.16.3"
+    }
+}
