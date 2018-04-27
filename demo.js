@@ -1,6 +1,6 @@
 // References:
 //  1. https://gist.github.com/branneman/8048520
-//  2.
+//  2. https://yj1438.github.io/2017/01/05/node_path.html
 //  3.
 //  4.
 //  5.
